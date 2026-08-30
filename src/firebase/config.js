@@ -11,13 +11,13 @@ import { getFirestore } from "firebase/firestore";
 
 // 👉 Substitua os valores abaixo pelos do seu projeto Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAymFnWCbefGJh33_RnnUBgbXYxdzS4fOI",
-  authDomain: "orcaflow-3cf27.firebaseapp.com",
-  projectId: "orcaflow-3cf27",
-  storageBucket: "orcaflow-3cf27.firebasestorage.app",
-  messagingSenderId: "160807735604",
-  appId: "1:160807735604:web:3e521f1d109fa10ac5d561",
-  measurementId: "G-F1CBM58KHG"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
