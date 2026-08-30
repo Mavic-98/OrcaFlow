@@ -1,0 +1,8 @@
+{
+  "appId": "com.orcaflow.app",
+  "appName": "OrçaFlow",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

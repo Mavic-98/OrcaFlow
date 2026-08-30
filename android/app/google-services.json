@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160807735604",
+    "project_id": "orcaflow-3cf27",
+    "storage_bucket": "orcaflow-3cf27.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160807735604:android:5411be868a8540cfc5d561",
+        "android_client_info": {
+          "package_name": "com.orcaflow.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxZ5Sm65nvmgkoUPtCUd_e7NcRE_G64TQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
